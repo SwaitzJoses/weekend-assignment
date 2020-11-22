@@ -1,0 +1,163 @@
+.bg{
+    background: rgb(112, 106, 106);
+    width: auto;
+    height: 300px;
+   
+}
+
+.bg2{
+    background: rgb(240, 240, 240);
+    position: relative;
+    top:170px;
+    height: 50px;
+    width: auto;
+    
+}
+
+.bg3{
+    background: rgb(255, 187, 0);
+    position: absolute;
+    top:150px;
+    left: 500px;
+    height: 100px;
+    width: 500px;
+    text-align: center;
+    border-radius: 20px;
+    /* z-index: 0; */
+}
+
+.name{
+    position: relative;
+    top:20px;
+    font-size: 50px;
+}
+
+img{
+    position:absolute;
+    top:10px;
+    width: 220px;
+    height: 220px;
+    /* z-index: 1; */
+    left: 630px;
+    border-radius: 50%;
+    /* filter: grayscale(100%); */
+    }
+
+    .gray{
+        filter: grayscale(100%);
+    }
+
+.add{
+    font-size: 20px;
+    text-align: center;
+    margin:10px;
+}
+
+.vertical { 
+    border-left: 1px solid black; 
+    height: 1200px; 
+    position:absolute; 
+    left: 50%; 
+} 
+
+.profile{
+    margin:70px;
+    width:550px;
+}
+
+.star{
+    position: absolute;
+    left:10px;
+    top: 400px;
+    width:60px;
+    height: 60px;
+}
+
+.star2{
+    position: absolute;
+    left:10px;
+    top: 600px;
+    width:60px;
+    height: 60px;
+}
+
+.star3{
+    position: absolute;
+    left:10px;
+    top: 1200px;
+    width:60px;
+    height: 60px;
+}
+
+.star4{
+    position: absolute;
+    left:10px;
+    top: 60px;
+    width:60px;
+    height: 60px;
+}
+
+.star5{
+    position: absolute;
+    left:10px;
+    top: 530px;
+    width:60px;
+    height: 60px;
+}
+
+.protext{
+    font-size: 20px;
+}
+
+.protext2{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.protext3{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
+.slidecontainer{
+   position: relative;
+   left: 300px;
+   top:-30px;
+   
+   
+  
+}
+.sname{
+    position: absolute;
+    font-size: 20px;
+    left:-200px
+}
+
+
+
+ .c{
+    margin: 100px;
+ }
+
+ .l{
+     position: absolute;
+     top: 350px;
+     left:50%
+ }
+
+ *{
+    /* overflow: visible; */
+    /* overflow-y: scroll; */
+    object-fit: cover;
+    margin: 0px ;
+    
+ }
+
+ body{
+     overflow-x: hidden;
+     margin: 0px;
+ }
+
